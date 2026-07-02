@@ -12,7 +12,7 @@ export default function EmployeesPage() {
   const [overtimeRate, setOvertimeRate] = useState("");
   const [deductionRate, setDeductionRate] = useState("");
   const [weekendMult, setWeekendMult] = useState("1.5");
-  const [view, setView] = useState("list");
+  const [view, setView] = useState("list"); // list | qr
   const [error, setError] = useState("");
 
   const load = async () => {
